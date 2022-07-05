@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
             String select_label = select.getText().toString();
 
             c_label.setText(select_label);
-
         }
     }
 }
