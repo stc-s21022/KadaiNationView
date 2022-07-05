@@ -11,10 +11,12 @@
         android:id="@+id/countrylabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/text"
+        android:textSize="34sp" />
 
     <ListView
         android:id="@+id/countrylist"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:entries="@array/country_list" />
 </LinearLayout>
